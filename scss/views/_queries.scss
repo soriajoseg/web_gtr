@@ -1,0 +1,354 @@
+/*mobile*/
+@media screen and (max-width: 599px) {
+
+    p {
+        color: white;
+    }
+
+    body {
+        background-color: rgb(51, 51, 51);
+    }
+
+    h1 {
+        color: rgb(224, 224, 224);
+        display: flex;
+    }
+
+    .container {
+        box-sizing: border-box;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .barra__nav {
+        font-size: 0.5em;
+        display: block;
+        text-align: center;
+        padding: 10px 10px;
+        height: auto;
+    }
+
+    .nav{
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 6px;
+    }
+
+    .nav:hover{
+        color: red;
+    }
+
+
+    .logo {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 5px;
+        height: 50px;
+        font-size: 3em;
+    }
+
+    .banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        background-image: url(../assets/img/banner_.jpg);
+        border-radius: 15px;
+    }
+
+    .banner h1 {
+        font-size: 2em;
+    }
+
+    .banner p{
+        font-size: 0.9em;
+    }
+
+    .carta{
+        background-color: rgba(107, 0, 0, 0.247);
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+        border-radius: 70px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .carta h3{
+        font-size: 1.3em;
+        color: white;
+    }
+
+    .carta p{
+        color:rgb(192, 190, 190);
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    footer{
+        text-align: center;
+        font-size: 0.6em;
+    }
+
+    .grid{
+        display: grid;
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    .box{
+        height: 150px;
+        border: 4px solid black;
+        background-color: rgba(107, 0, 0, 0.247);
+        margin: 15px;
+        line-height: 150px;
+        border-radius: 15px;
+        font-size: 10px;
+        color: white;
+    }
+}
+
+/*Tablet*/
+@media screen and (max-width: 1999px) and (min-width: 600px){
+
+    p {
+        color: white;
+    }
+
+    body {
+        background-color: rgb(51, 51, 51);
+    }
+
+    h1 {
+        color: rgb(224, 224, 224);
+        display: flex;
+    }
+
+    .container {
+        box-sizing: border-box;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .barra__nav {
+        font-size: 0.5em;
+        display: block;
+        text-align: center;
+        padding: 10px 10px;
+        height: auto;
+    }
+
+    .nav{
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 6px;
+    }
+
+    .nav:hover{
+        color: red;
+    }
+
+
+    .logo {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 5px;
+        height: 50px;
+        font-size: 3em;
+    }
+
+    .banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        background-image: url(../assets/img/banner_.jpg);
+        border-radius: 15px;
+    }
+
+    .banner h1 {
+        font-size: 2em;
+    }
+
+    .banner p{
+        font-size: 0.9em;
+    }
+
+    .carta{
+        background-color: rgba(107, 0, 0, 0.247);
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+        border-radius: 70px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .carta h3{
+        font-size: 1.3em;
+        color: white;
+    }
+
+    .carta p{
+        color:rgb(192, 190, 190);
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    footer{
+        text-align: center;
+        font-size: 0.6em;
+    }
+
+    .grid{
+        display: grid;
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    .box{
+        height: 150px;
+        border: 4px solid black;
+        background-color: rgba(107, 0, 0, 0.247);
+        margin: 15px;
+        line-height: 150px;
+        border-radius: 15px;
+        font-size: 10px;
+        color: white;
+    }
+    .box {
+        height: 150px;
+        border: 4px solid black;
+        background-color: rgba(107, 0, 0, 0.247);
+        margin: 15px;
+        line-height: 150px;
+        border-radius: 15px;
+        font-size: 10px;
+        color: white;
+    }
+}
+
+/*PC*/
+@media screen and (max-width: 4000px) and (min-width: 1200px){
+
+    p {
+        color: white;
+    }
+
+    body {
+        background-color: rgb(51, 51, 51);
+    }
+
+    h1 {
+        color: rgb(224, 224, 224);
+        display: flex;
+    }
+
+    .container {
+        box-sizing: border-box;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .barra__nav {
+        font-size: 0.5em;
+        display: block;
+        text-align: center;
+        padding: 10px 10px;
+        height: auto;
+    }
+
+    .nav{
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 6px;
+    }
+
+    .nav:hover{
+        color: red;
+    }
+
+
+    .logo {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 5px;
+        height: 50px;
+        font-size: 3em;
+    }
+
+    .banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        background-image: url(../assets/img/banner_.jpg);
+        border-radius: 15px;
+    }
+
+    .banner h1 {
+        font-size: 2em;
+    }
+
+    .banner p{
+        font-size: 0.9em;
+    }
+
+    .carta{
+        background-color: rgba(107, 0, 0, 0.247);
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+        border-radius: 70px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .carta h3{
+        font-size: 1.3em;
+        color: white;
+    }
+
+    .carta p{
+        color:rgb(192, 190, 190);
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    footer{
+        text-align: center;
+        font-size: 0.6em;
+    }
+
+    .grid{
+        display: grid;
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    .box{
+        height: 150px;
+        border: 4px solid black;
+        background-color: rgba(107, 0, 0, 0.247);
+        margin: 15px;
+        line-height: 150px;
+        border-radius: 15px;
+        font-size: 10px;
+        color: white;
+    }
+}
