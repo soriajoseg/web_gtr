@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+@import "vaiables"; 
 a {
     color: white;
     text-decoration: none;
@@ -90,7 +91,7 @@ button:hover {
     }
 
     .nav:hover {
-        color: red;
+        color: rgb(255, 0, 0);
     }
 
 

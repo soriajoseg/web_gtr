@@ -1,5 +1,7 @@
+@use "variables";
+
 .carta {
-    background-color: rgba(107, 0, 0, 0.247);
+    background-color: $colorback2;
     padding: 10px 10px 10px 10px;
     text-align: center;
     border-radius: 70px;
